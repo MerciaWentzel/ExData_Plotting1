@@ -16,9 +16,11 @@ plot4 <- function() {
     lines(tHPC$datetime, tHPC$Sub_metering_3, col = "blue")
     legend(
         x = "topright", 
-        col = c("black", "red", "blue"), c("Sub_metering_1        ", "Sub_metering_2        ", "Sub_metering_3          "),
+        col = c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
         bty = "n",
-        cex = 0.7
+        cex = 0.5,
+        y.intersp = 0.8,
+        lty = 1
     )
     
     ## bottom right
